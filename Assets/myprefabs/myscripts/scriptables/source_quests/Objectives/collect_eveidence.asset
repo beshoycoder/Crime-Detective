@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9decf31bc6e88c240be8158912f74961, type: 3}
+  m_Name: collect_eveidence
+  m_EditorClassIdentifier: 
+  Name: eveidence
+  descriptions: collect eveidence to use to catch the murderer
+  Obj_finish: {fileID: 11400000, guid: 42b0008fabf4032439ee15f8c56f6f94, type: 2}
+  obj_finish_event: {fileID: 11400000, guid: bc4a717bd9305f44885b93f0373e0464, type: 2}
+  currently_collected: 2
+  required_amount: 3
+  maximum_collected: 5
+  Int_event: {fileID: 11400000, guid: 1f143cdf3dab14746b320220880feb5f, type: 2}

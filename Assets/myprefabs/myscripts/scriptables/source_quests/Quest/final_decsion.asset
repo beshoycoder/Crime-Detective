@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1f0381d7c47f043a7e9db7a4abd1d7, type: 3}
+  m_Name: final_decsion
+  m_EditorClassIdentifier: 
+  Quest_Name: decide who is the real killer
+  Quest_Objectives:
+  - {fileID: 11400000, guid: 86a189ea6e3970748bb400f37f8b97af, type: 2}
+  - {fileID: 11400000, guid: 18f01fe173807f643944b459ff9326fc, type: 2}
+  - {fileID: 11400000, guid: 53478b84cd672ae40a2cde97aa0c9c01, type: 2}
+  ON_Quest_start: {fileID: 11400000, guid: b2142180b935cbd40a69fc4b23ca6070, type: 2}
+  ON_Objective_start: {fileID: 11400000, guid: 6d4f999e0ba88314db818fcf6a227152, type: 2}
+  Quest_finish_event: {fileID: 11400000, guid: 8c72946706370d24898967baaf7689da, type: 2}
+  obj_finish_event: {fileID: 11400000, guid: bc4a717bd9305f44885b93f0373e0464, type: 2}

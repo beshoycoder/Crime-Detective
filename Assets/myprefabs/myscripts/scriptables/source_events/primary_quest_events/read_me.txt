@@ -1,0 +1,1 @@
+these events are only used to communicate between the quest manager ,the quest and the objectives of the quest

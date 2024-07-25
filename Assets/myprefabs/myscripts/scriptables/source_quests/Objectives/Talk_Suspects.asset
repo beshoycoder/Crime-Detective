@@ -16,7 +16,6 @@ MonoBehaviour:
   descriptions: intergate the suspects to catch the real killer
   Obj_finish: {fileID: 11400000, guid: 42b0008fabf4032439ee15f8c56f6f94, type: 2}
   obj_finish_event: {fileID: 11400000, guid: bc4a717bd9305f44885b93f0373e0464, type: 2}
-  is_active: 0
   Talked_to: {fileID: 11400000, guid: 2439b213d48711141bdf5d136b9d8102, type: 2}
   Npcs:
   - Npc_name: suspect1

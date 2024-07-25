@@ -39,6 +39,7 @@ public class Talk_to_Objectives : Quest_Objectives
             if (npcIndex >= 0)
             {
                 Npcs[npcIndex].Talked_to = true;
+                Debug.Log($"you talked to {Npcs[npcIndex].Npc_name}");
                 Check_of_all_TalkedTo();
             }
         }

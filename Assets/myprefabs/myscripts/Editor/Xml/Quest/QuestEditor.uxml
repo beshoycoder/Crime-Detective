@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/myprefabs/myscripts/Editor/Xml/Quest/QuestEditorStyle.uss?fileID=7433441132597879392&amp;guid=42bd13c9546173847be7cf300ccb32cf&amp;type=3#QuestEditorStyle" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:PropertyField binding-path="Quest_Name" label="name of the quest" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:PropertyField binding-path="Quest_Objectives" name="objectives" label="Objectives" class="unity-list-view__reorderable-item" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Foldout text="events">
+            <uie:PropertyField binding-path="ON_Quest_start" />
+            <uie:PropertyField binding-path="ON_Objective_start" />
+            <uie:PropertyField binding-path="Quest_finish_event" />
+            <uie:PropertyField binding-path="obj_finish_event" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

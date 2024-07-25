@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Quest_Name: crime scene
   Quest_Objectives:
-  - {fileID: 11400000, guid: 726694b39eb42594abd96be63b7706e2, type: 2}
   - {fileID: 11400000, guid: 4514a8fec0753d644984e895f8d1e0cc, type: 2}
+  - {fileID: 11400000, guid: 726694b39eb42594abd96be63b7706e2, type: 2}
   - {fileID: 11400000, guid: e4fdbd6e91536c54a922c211d7314d48, type: 2}
-  - {fileID: 11400000, guid: 86a189ea6e3970748bb400f37f8b97af, type: 2}
   - {fileID: 11400000, guid: 18f01fe173807f643944b459ff9326fc, type: 2}
+  - {fileID: 11400000, guid: 53478b84cd672ae40a2cde97aa0c9c01, type: 2}
   - {fileID: 11400000, guid: 53478b84cd672ae40a2cde97aa0c9c01, type: 2}
   ON_Quest_start: {fileID: 11400000, guid: b2142180b935cbd40a69fc4b23ca6070, type: 2}
   ON_Objective_start: {fileID: 11400000, guid: 6d4f999e0ba88314db818fcf6a227152, type: 2}
